@@ -1,12 +1,14 @@
 [
-  {
-    "remote": "devices",
-    "repository": "vendor_oneplus",
-    "target_path": "vendor/oneplus"
-  },
-  {
-    "remote": "devices",
-    "repository": "kernel_oneplus_msm8998",
-    "target_path": "kernel/oneplus/msm8998"
-  },
+   {
+     "repository": "RevengeOS-Devices/kernel_oneplus_msm8998",
+     "target_path": "kernel/oneplus/msm8998",
+     "branch": "r11.0",
+     "remote": "github" 
+   },
+   {
+     "repository": "RevengeOS-Devices/vendor_oneplus",
+     "target_path": "vendor/oneplus",
+     "branch": "r11.0",
+     "remote": "github"
+   },
 ]
